@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya's To Do Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <div class="calender">
+        <div class="left">
+          <p id="date"> 01</p>
+          <p id="day">Sunday</p>
+        </div>
+        <div class="right">
+            <p id="month">January</p>
+            <p id="year">2025</p>
+        </div>
+      </div>
+    </div>
+  <img src="img/rocket.png" class="rocket">
+
+  <!-- To-Do List -->
+  <div class="todo-container">
+    <h2>📝 To-Do List</h2>
+    <div class="todo-input">
+      <input type="text" id="taskInput" placeholder="Add a new task...">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+  
+<script src="script.js"></script>
+
+</body>
+</html>
+
